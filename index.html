@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="presen.css">
+  <title>Final_Presen</title>
+</head>
+
+<body>
+  <h1>FND20  Final Presentation</h1>
+  <h2>🐊🐊本社工場 品質管理部  Yosuke Kotake🐊🐊</h2>
+  <h2>プレゼン内容: 工夫して解決できた演習問題！   （…普通やん）</h2>
+  <script type="text/javascript" src="presen.js"></script>
+</body>
+<!-- scriptは、body閉じタグの直前に持ってくる（読み込み順番の都合で） -->
+
+<body>
+  <h1>　</h1>
+  <h1>　</h1>
+  <h1>　</h1>
+  <h1>その演習は   これだ…!!</h1>
+  <h2>day10　for…in ループ　　復習: 配列とオブジェクト　問2</h2>
+  <h1>　</h1>
+  <img src="C:\Users\1460953\Desktop\dig-foundations\day20\final_presen\imgs\演習問題_赤ペン.png" width="700" height="">
+  <h1>　</h1>
+  <h1>　</h1>
+  <h1>　</h1>
+  <h1>　</h1>
+  <h1>な・・・ぬぁんですって？？　(;^ω^)ｸｵｯｸｵ!!</h1>
+  <h1>　</h1>
+  <h1>　</h1>
+  <h2>返すモノ　　　:　与えられた配列の中の、すべてのオブジェクトのすべての値が入った配列</h2>
+  <h2>与えられた配列:　const collection = [{ a: 1, b: 2 }, { a: 3, b: 3 }, { b: 4 }, { a: 100 }];</h2>
+  <h1>　</h1>
+  <img src="C:\Users\1460953\Desktop\dig-foundations\day20\final_presen\imgs\悩む.png">
+  <h1>　</h1>
+  <h2>/**<br>
+    * @param {Array<object>} オブジェクトを要素に持つ配列<br>
+    * @returns {Array<any>} すべてのオブジェクトのすべての値が入った配列<br>
+    */<br>
+    <br>
+   // ここにコードを書きましょう<br>
+   function getAllValues(array) {<br>
+     　const result = []; //最後は配列で出したい<br>
+     　for (　・・・おぉん？？？？　）<br>
+  </h2>
+  <h1>　</h1>
+  <h1>　</h1>
+  <img src="C:\Users\1460953\Desktop\dig-foundations\day20\final_presen\imgs\1時間後.png">
+  <h1>　</h1>
+  <h1>　</h1>
+  <img src="C:\Users\1460953\Desktop\dig-foundations\day20\final_presen\imgs\ひらめき.png">
+  <h1>　</h1>
+  <h1>　</h1>
+  <img src="C:\Users\1460953\Desktop\dig-foundations\day20\final_presen\imgs\書いたら分かった.png">
+  <h1>　</h1>
+  <h1>　</h1>
+  <img src="C:\Users\1460953\Desktop\dig-foundations\day20\final_presen\imgs\実際に書いたコード.png">
+  <h3>function getAllValues(array) {<br>
+    　const result = []; //最後は配列で出したい<br>
+    　for (const obj of array) { //配列の中の全てのobjに対し・・・配列だからfor-of<br>
+      　　for (const value in obj) { //objの中の全てのvalueに対し・・・objだからfor-in<br>
+        　　　result.push(obj[value]); //objからvalueを取り出してresultにpush<br>
+      　　}<br>
+    　}<br>
+   　return result; //result配列を返す<br>
+  }<br>
+  <br>
+  collection = [{ a: 1, b: 2 }, { a: 3, b: 3 }, { b: 4 }, { a: 100 }];<br>
+  <br>
+  test(getAllValues(collection), [1, 2, 3, 3, 4, 100]);<br>
+  test(getAllValues(collection.slice(1)), [3, 3, 4, 100]);<br>
+  </h3>
+  <img src="C:\Users\1460953\Desktop\dig-foundations\day20\final_presen\imgs\テストパス.png">
+</body>
+
+<body>
+  <h1>　</h1>
+  <h1>　</h1>
+  <h1>この演習で学んだこと</h1>
+  <h2>数値を並べただけのデータ　→　グラフ化すれば分かる<br>
+  これは幾度となく実践してきたが、プログラムコードも同じこと<br>
+  これからもっと複雑なコードと向き合っていくのだとしたら、<br>
+  絵にして理解してコードを書いていく訓練を重ねていくことが大事！！<br>
+  調べていく経験、訓練も大事だけど、このスキルも不可欠だと学んだ
+  </h2>
+  <h1>　</h1>
+  <h1>　</h1>
+  <h1>以上、ありがとうございました！！<br>
+  フォローアップ期間も引き続きよろしくお願いします！！<br>
+  </h1>
+  <h1>　</h1>
+  <h1>🐊🌈🐊🌈🐊🌈🐊🌈🐊🌈🐊🌈🐊🌈🐊🌈🐊🌈🐊</h1>
+</body>
+
+
+
+</html>
