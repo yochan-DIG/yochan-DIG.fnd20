@@ -62,4 +62,4 @@ window.onload = function () {
   const fiveMinutes = 5 * 60, // 5分（秒単位）
       disp = document.getElementById('timer');
   startTimer(fiveMinutes, disp);
-};
+}
