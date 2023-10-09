@@ -55,6 +55,11 @@ body {
     padding: auto;
 }
 
+.imgg {
+    margin-top: 50pt;
+    width: 70%;
+}
+
 .purple {
     color: #136FFF;
 }
@@ -86,6 +91,7 @@ body {
 .code {
     background: #333333;
     padding: 1%;
+    margin-top: 200px;
 }
 
 .code p {
