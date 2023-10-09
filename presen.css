@@ -1,0 +1,179 @@
+.background {
+    background-image: url('https://github.com/yochan-DIG/yochan-DIG.fnd20/blob/main/momiji3.jpg?raw=true');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+} /* 背景画像を設定したいが上手くいかない*/ 
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+} /* Flexboxレイアウト設定 */
+
+.header {
+    background: gainsboro;
+    border: 5px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 900px;
+    margin: 50px;
+    margin-bottom: 200px;
+}
+
+.exercises {
+    /* border: 30px solid yellow; */
+    background: #FFFFBB;
+    padding-inline: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 50px;
+    margin-bottom: 300px;
+}
+
+.expe1 {
+    margin-top: 300px;
+    background: #000077;
+    color: white;
+    font-size: 24pt;
+    font-weight: bold;
+    width: 1500px;
+}
+
+.purple {
+    color: #136FFF;
+}
+.lightgreen {
+    color: #00F9A9;
+}
+.green {
+    color: #3CB371;
+}
+.yellow {
+    color: #FFD700;
+}
+.lightyellow {
+    color: #FFFF88;
+}
+.aquablue {
+    color: #00ECFF;
+}
+.lightblue {
+    color: #BBFFFF;
+}
+.blue {
+    color: #005FFF;
+}
+.pink {
+    color: #FF55FF;
+}
+
+.code {
+    background: #333333;
+    color: white;
+    font-size: 24pt;
+    font-weight: bold;
+    width: 1200px;
+    height: 600px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.caution {
+    text-align: right;
+    font-size: 25pt;
+    margin-bottom: 150pt;
+}
+
+.bokasi {
+    filter: blur(200px);
+}
+
+.img {
+    margin-top: 200pt;
+}
+
+.learned {
+    margin: 200px;
+    background: #BBFFFF;
+    border: 5pt solid #00FF3B;
+    padding-left: 30pt;
+    padding-right: 30pt;
+}
+
+.learned h1 {
+    font-size: 30pt;
+}
+
+.learned p {
+    font-size: 25pt;
+}
+
+.last {
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+/* ↓↓↓拍手アプリのstyle↓↓↓ */
+.applause {
+    position: sticky;
+    top: 500px;
+    margin-left: auto;
+    text-align: center;
+    background: #CCFFFF;
+    border: 5px solid #0066FF;
+    width: 200px;
+}
+
+#hakusyu {
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+#emoji {
+    font-size: 60pt;
+}
+
+#appnum {
+    font-size: 60pt;
+}
+
+.apptext {
+    font-size: 17pt;
+    font-weight: bold;
+    color: red;
+}
+
+#preapplast {
+    display: block;
+    width: 900px;
+    height: 150px;
+    border: 5px solid #BBBBBB;
+    font-size: 30pt;
+    font-weight: bold;
+    color: #BBBBBB;
+    text-align: center;
+}
+
+#applast {
+    display: none;
+    font-weight: bold;
+    color: red;
+    width: 900px;
+    height: 150px;
+    border: 5px solid red;
+    font-size: 30pt;
+    color: red;
+    text-align: center;
+}
+
+.red-text {
+    color: red;
+}
+
+/* ↑↑↑拍手アプリのstyle↑↑↑ */
