@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <script type="text/javascript" src="modules/lodash.min.js"></script>
+  <script type="text/javascript" src="modules/test-boilerplate.js"></script>
+  <link rel="stylesheet" href="bz.css">
+  <title>B'z_game</title>
+</head>
+
+<body>
+  <h1>B'z THE click SHOUT!!!</h1>
+  <p class="rule">稲葉さんをクリックすると、最大10種類のSHOUTをしてくれるよ！🎤🎤🎤<br>
+  10秒以内で、沢山のSHOUTを聴いてお友達と点数を競おう！！🗣🗣🗣<br>
+  松本さんにSHOUTさせちゃったら減点だから気を付けて！😎<br>
+  スタートボタンを押して楽しもう！！👆ﾎﾟﾁｯ
+  </p>
+  
+  <div class="display">
+    <p class="inline" id="counter">点数：　0</p>
+    <button class="inline" id="start">スタート！👆</button>
+    <div class="inline" id="timer">
+      <p>Timer</p>
+      <img src="https://github.com/yochan-DIG/yochan-DIG.fnd20/blob/main/timer.png?raw=true" width="150px">
+    </div>
+  </div>
+
+  <img src="https://github.com/yochan-DIG/yochan-DIG.fnd20/blob/main/bz.jpg?raw=true">
+
+  <script type="text/javascript" src="bz.js"></script>
+</body>
+<!-- scriptは、body閉じタグの直前に持ってくる（読み込み順番の都合で） -->
+
+
+</html>
+
+<!-- 
+
+【id, classの付け方】
+<h1 id="eats">偉大なるページ</h1>
+<h1 class="animal">偉大なるページ</h1>
+<h1 class="animal" id="eats">偉大なるページ</h1>
+
+【どこで改行されてもいい長い文章に適したタグ】
+<p>ここに文章など</p>
+
+【空要素】
+・画像を挿入する
+<img src="ファイルパス" alt="題名" width="600" height="">
+※題名やサイズ指定なければ、alt以降は消してもよい
+
+・指定したとこで改行する
+<p>ここに文章などここに文章な<br>　←ここで改行
+どここに文章などこ<br>　←ここで改行
+こに文章など</p>
+
+【文章の途中で一部の要素を区切る】
+<p>ここに文章などここに文章などここに文章などここに文章など <span>朝飯はパン!!</span> ここに文章などここに文章などここに文章などここに文章などここに文章など</p>
+
+【テキストを斜体にする】
+<p>ここに文章<em>朝はパン!!</em>ここに文章</p>
+
+【テキストを強調（太字）にする】
+<p>ここに文章<strong>朝はパン!!</strong>ここに文章</p>
+
+【＊＊＊】
+<ul></ul>
+
+【＊＊＊】
+<li></li>
+
+【テキストbox】
+<input type="text" id="eats" placeholder="入力指示">
+
+【click ボタン】
+<button id="eats">決定！</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
