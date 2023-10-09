@@ -13,29 +13,46 @@ body {
     background: gainsboro;
     border: 5px solid black;
     text-align: center;
-    padding: 10px;
-    width: 900px;
+    padding: 3%;
     margin: 50px;
     margin-bottom: 200px;
 }
 
+.header h1 {
+    font-size: 2.5vw;
+}
+
+.header h2 {
+    font-size: 1.7vw;
+}
+
+.koreda h1 {
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+.koreda h2 {
+    font-size: 1.4vw;
+    text-align: center;
+}
+
 .exercises {
-    /* border: 30px solid yellow; */
-    background: #FFFFBB;
-    padding-inline: 100px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 50px;
+    border: 20px solid #000077;
     margin-bottom: 300px;
+    width: 50%;
+}
+
+.kuo {
+    font-size: 2vw;
 }
 
 .expe1 {
     margin-top: 300px;
     background: #000077;
     color: white;
-    font-size: 24pt;
+    font-size: 1.6vw;
     font-weight: bold;
-    width: 1500px;
+    padding: auto;
 }
 
 .purple {
@@ -68,49 +85,47 @@ body {
 
 .code {
     background: #333333;
+    padding: 1%;
+}
+
+.code p {
     color: white;
-    font-size: 24pt;
+    font-size: 1.5vw;
     font-weight: bold;
-    width: 1200px;
-    height: 600px;
-    padding-top: 30px;
-    padding-left: 30px;
 }
 
 .caution {
     text-align: right;
-    font-size: 25pt;
+    font-size: 1.7vw;
     margin-bottom: 150pt;
-}
-
-.bokasi {
-    filter: blur(200px);
 }
 
 .img {
     margin-top: 200pt;
+    width: 70%;
 }
 
 .learned {
     margin: 200px;
     background: #BBFFFF;
     border: 5pt solid #00FF3B;
-    padding-left: 30pt;
-    padding-right: 30pt;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .learned h1 {
-    font-size: 30pt;
+    font-size: 1.8vw;
 }
 
 .learned p {
-    font-size: 25pt;
+    font-size: 1.5vw;
 }
 
 .last {
-    font-size: 30pt;
+    font-size: 1.8vw;
     font-weight: bold;
     text-align: center;
+    margin-top: 200px;
 }
 
 
@@ -118,55 +133,55 @@ body {
 
 /* ↓↓↓拍手アプリのstyle↓↓↓ */
 .applause {
-    position: sticky;
-    top: 500px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
     margin-left: auto;
     text-align: center;
     background: #CCFFFF;
     border: 5px solid #0066FF;
-    width: 200px;
+    /* width: 200px; */
+    padding: 1.5%;
 }
 
 #hakusyu {
-    font-size: 30pt;
+    font-size: 1.8vw;
     font-weight: bold;
 }
 
 #emoji {
-    font-size: 60pt;
+    font-size: 4vw;
 }
 
 #appnum {
-    font-size: 60pt;
+    font-size: 3.5vw;
 }
 
 .apptext {
-    font-size: 17pt;
+    font-size: 1.4vw;
     font-weight: bold;
     color: red;
 }
 
 #preapplast {
     display: block;
-    width: 900px;
-    height: 150px;
     border: 5px solid #BBBBBB;
-    font-size: 30pt;
-    font-weight: bold;
+    font-size: 2vw;
     color: #BBBBBB;
+    font-weight: bold;
     text-align: center;
+    padding: auto;
 }
 
 #applast {
     display: none;
-    font-weight: bold;
-    color: red;
-    width: 900px;
-    height: 150px;
+    background: #FFFFBB;
     border: 5px solid red;
-    font-size: 30pt;
+    font-size: 2vw;
     color: red;
+    font-weight: bold;
     text-align: center;
+    padding: auto;
 }
 
 .red-text {
@@ -176,16 +191,18 @@ body {
 /* ↑↑↑拍手アプリのstyle↑↑↑ */
 
 
+
+
 /* ↓↓↓タイマー（非自作）↓↓↓ */
 .timer-container {
     position: fixed;
     top: 10px; /* 画面上部からの距離を調整 */
     right: 10px; /* 画面右側からの距離を調整 */
     background-color: #333;
-    padding: 10px;
+    padding: 0.5%;
     border-radius: 5px;
     color: #fff;
-    font-size: 50pt;
+    font-size: 4vw;
 }
 
 .timer {
@@ -195,5 +212,5 @@ body {
 .timer-container p {
     position: fixed;
     color: black;
-    font-size: 10pt;
+    font-size: 0.9vw;
 }
