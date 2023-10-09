@@ -9,8 +9,7 @@
 const emoji = document.getElementById("emoji"); // emojiのタグ取得（人がやる最後のイベント）
 const appnum = document.getElementById("appnum"); // appnumのタグ取得
 const applast = document.getElementById("applast"); // applastのタグ取得
-const preapplast = document.getElementById("preapplast") // applastの表示とともに消す
-
+const preapplast = document.getElementById("preapplast"); // applast表示と同時に消す
 
 
 // 人がやる最後のイベント emoji にリスナー関数をかける
@@ -37,6 +36,9 @@ function appLastDisplay() {
     preapplast.style.display = "block";
   }
 }
+
+
+
 
 
 // タイマーのカウントダウン処理（非自作）
