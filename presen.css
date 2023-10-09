@@ -1,11 +1,8 @@
-.background {
-    background-image: url('https://github.com/yochan-DIG/yochan-DIG.fnd20/blob/main/momiji3.jpg?raw=true');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-} /* 背景画像を設定したいが上手くいかない*/ 
-
 body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1350px;
+    /* background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -177,3 +174,26 @@ body {
 }
 
 /* ↑↑↑拍手アプリのstyle↑↑↑ */
+
+
+/* ↓↓↓タイマー（非自作）↓↓↓ */
+.timer-container {
+    position: fixed;
+    top: 10px; /* 画面上部からの距離を調整 */
+    right: 10px; /* 画面右側からの距離を調整 */
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 50pt;
+}
+
+.timer {
+    font-family: monospace;
+}
+
+.timer-container p {
+    position: fixed;
+    color: black;
+    font-size: 10pt;
+}
