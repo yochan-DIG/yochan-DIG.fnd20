@@ -37,3 +37,29 @@ function appLastDisplay() {
     preapplast.style.display = "block";
   }
 }
+
+
+// タイマーのカウントダウン処理（非自作）
+function startTimer(duration, disp) {
+  let timer = duration, minutes, seconds;
+  setInterval(function () {
+      minutes = parseInt(timer / 60, 10);
+      seconds = parseInt(timer % 60, 10);
+
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+
+      disp.textContent = minutes + ":" + seconds;
+
+      if (--timer < 0) {
+          timer = duration;
+      }
+  }, 1000);
+}
+
+// ページが読み込まれたときにタイマーを開始します
+window.onload = function () {
+  const fiveMinutes = 5 * 60, // 5分（秒単位）
+      disp = document.getElementById('timer');
+  startTimer(fiveMinutes, disp);
+};
